@@ -1,2 +1,144 @@
-Nothing to see here.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/cool.css"
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Rapid7 Open Source Toolkit - R.O.S.T</a>
+          <a class="navbar-brand" href="#security" style="color:#FF7F00"><i class="fa fa-shield"></i> Metasploit</a>
+          <a class="navbar-brand" href="#security" style="color:#FF7F00"><i class="fa fa-shield"></i> Security</a>
+          <a class="navbar-brand" href="#config" style="color:#497CE2"><i class="fa fa-cogs"></i> Property Management</a>
+          <a class="navbar-brand" href="#utils" style="color:#008B81"><i class="fa fa-wrench"></i> Utilities</a>
+          <a class="navbar-brand" href="#chef" style="color:#FFCD6E"><i class="fa fa-spoon"></i> Chef</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h2 style="color:#FF7F00">Welcome to the Rapid7 Open Source Toolkit</h2>
+        <h4>Otherwise affectionately known as R.O.S.T</h4>
+        <p>
+           Rapid7’s mission is to engineer simple, innovative solutions for security’s critical challenges.
+        </p>
+        <p>
+           These directives guide not only or portfolio offerings, but our open source tools as well.  When projects are started, they are begun with a discussion around the future of the repository with a passonate cry for the open source option.  These are the things that we use internally to make our lives easier, faster, and more secure.
+        </p>
+        <p>
+           We have a deep respect for open source work - we use it throughout our products and tools.  One of the best ways we could give back is to provide best-in-breed security, tools, and applications back in open source form.
+        </p>
+        <p><a class="btn btn-warning btn-lg" href="http://www.rapid7.com/company/impact.jsp" role="button">Learn more about Rapid7's commitment to the security community &raquo;</a></p>
+      </div>
+    </div>
+    </div> <!-- /col-md-2 navigation -->
+      <div class="container-fluid" id="security">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #FF7F00;">
+            <h2><i class="fa fa-shield"></i> Security related</h2>
+            <h3 style="color:#FF7F00">Take advantage of these tools to help secure your environment.</h3>
+            <p  class="cat-desc">Here in this section, you'll find all the open source things we've created to support
+              our various security initatives.  From the many, many <a href="https://github.com/rapid7/metasploit-framework">metasploit-framework</a> projects, to things like <a href="https://github.com/rapid7/awsaml">awsaml</a> - which we use to manage AWS key rotation for our CLI development work.</p>
+              <p>For a full list of ALL the Metasploit components available to you, there's a <a href="https://github.com/rapid7/hackazon">dedicated page</a>.</p>
+            <h4>Metasploit Related</h4>
+            <ol>
+              <li><a href="https://github.com/rapid7/metasploit-framework">metasploit-framework</a></li>
+              <li><a href="https://github.com/rapid7/metasploit_data_models">metasploit_data_models</a></li>
+              <li><a href="https://github.com/rapid7/metasploit-payloads">metasploit-payloads</a></li>
+              <li><a href="https://github.com/rapid7/hackazon">hackazon</a></li>
+              <li><a href="link here to another page dedicated to Metasploit bits">More Metasploit projects here!</a></li>
+            </ol>
+            <h4>Utilities</h4>
+            <ol>
+            <li><a href="https://github.com/rapid7/awsaml">awsaml</a></li>
+            <li><a href="https://github.com/rapid7/guardian">guardian</a></li>
+            </ol>          
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="config">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #497CE2;">
+            <h2><i class="fa fa-cogs"></i> Configuration Management</h2>
+            <h3 style="color:#497CE2">Something clever about config management.</h3>
+            <p class="cat-desc">In this section, you'll find both our small-scale, easy-to-use centralized configuration tool <a href="https://github.com/rapid7/conqueso">conqueso</a> along with its various clients.  In addition to that, we have also included our next-gen, open source project <a href="https://github.com/rapid7/propsd">propsd</a> which combines the power of S3 along with Consul.io to provide a drop in replacement for <a href="https://github.com/rapid7/conqueso">conqueso</a>.</p>
+            <ol>
+              <li><a href="https://github.com/rapid7/propsd">propsd</a></li>
+              <li><a href="https://github.com/rapid7/conqueso">conqueso</a></li>
+              <li><a href="https://github.com/rapid7/conqueso-client-javascript">conqueso-client-javascript</a></li>
+              <li><a href="https://github.com/rapid7/conqueso-client-java">conqueso-client-java</a></li>
+            </ol>
+         </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="utils">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #008B81;">
+            <h2><i class="fa fa-wrench"></i> Standard Utilities</h2>
+            <h3 style="color:#008B81">Something clever about our utilities.</h3>
+            <p class="cat-desc">Some cool business here with links and a description for each component in this category.</p>
+            <ol>
+              <li><a href="https://github.com/rapid7/github-connector">github-connector</a></li>
+              <li><a href="https://github.com/rapid7/github-notification-proxy">github-notification-proxy</a></li>
+              <li><a href="https://github.com/rapid7/builderator">builderator</a></li>
+              <li><a href="https://github.com/rapid7/convection">convection</a></li>
+              <li><a href="https://github.com/rapid7/dogwatch">dogwatch</a></li>
+              <li><a href="https://github.com/rapid7/elasticsearch-drain">elasticsearch-drain</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="chef">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #FFCD6E;">
+            <h2><i class="fa fa-spoon"></i> Chef</h2>
+            <h3 style="color:#FFCD6E">Something clever about our chef components.</h3>
+            <p class="cat-desc">Blah blah blah some business here about all these cool chef bits</p>
+            <ol>
+              <li><a href="https://github.com/rapid7/chef-conqueso">chef-conqueso</a></li>
+              <li><a href="https://github.com/rapid7/chef-datadog">chef-datadog</a></li>
+              <li><a href="https://github.com/rapid7/cluster-discovery">cluster-discovery</a></li>
+              <li><a href="https://github.com/rapid7/chef-etcd">chef-etcd</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-md-offset-10">
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 Rapid7, LLC.</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/JavaScript" src="bootstrap-3.3.6-dist/js/jquery-2.2.1.min.js"></script>
+    <script type="text/JavaScript" src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+  </body>
+<html>
