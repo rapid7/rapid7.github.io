@@ -1,2 +1,144 @@
-Nothing to see here.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/cool.css"
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Rapid7 Open Source Toolkit - R.O.S.T</a>
+          <a class="navbar-brand" href="#security" style="color:#FF7F00"><i class="fa fa-shield"></i> Metasploit and security</a>
+          <a class="navbar-brand" href="#config" style="color:#497CE2"><i class="fa fa-cogs"></i> Property Management</a>
+          <a class="navbar-brand" href="#utils" style="color:#008B81"><i class="fa fa-wrench"></i> Standard Utilities</a>
+          <a class="navbar-brand" href="#chef" style="color:#FFCD6E"><i class="fa fa-spoon"></i> Chef</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h2 style="color:#FF7F00">Welcome to the Rapid7 Open Source Toolkit</h2>
+        <h4>Otherwise affectionately known as R.O.S.T</h4>
+        <p>
+           Rapid7’s mission is to engineer simple, innovative solutions for security’s critical challenges.
+        </p>
+        <p>
+           These directives guide not only or portfolio offerings, but our open source tools as well.  When projects are started, they are begun with a discussion around the future of the repository with a passonate cry for the open source option.  These are the things that we use internally to make our lives easier, faster, and more secure.
+        </p>
+        <p>
+           We have a deep respect for open source work - we use it throughout our products and tools.  One of the best ways we could give back is to provide best-in-breed security, tools, and applications back in open source form.
+        </p>
+        <p><a class="btn btn-warning btn-lg" href="http://www.rapid7.com/company/impact.jsp" role="button">Learn more about Rapid7's commitment to the security community &raquo;</a></p>
+      </div>
+    </div>
+    </div> <!-- /col-md-2 navigation -->
+      <div class="container-fluid" id="security">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #FF7F00;">
+            <h2><i class="fa fa-shield"></i> Metasploit and security related</h2>
+            <h3 style="color:#FF7F00">Take advantage of these tools to help secure your environment.</h3>
+            <p  class="cat-desc">Here in this section, you'll find all the open source things we've created to support
+              our various security initatives.  From the many, many <a href="https://github.com/rapid7/metasploit-framework">metasploit-framework</a> projects, to things like <a href="https://github.com/rapid7/awsaml">awsaml</a> - which we use to manage AWS key rotation for our CLI development work.</p>
+              <p>For more information about leveraging the power of Metasploit tools, there's a <a href="http://resources.metasploit.com/">dedicated page</a> full of helpful resources.</p>
+            <h4>Metasploit Related</h4>
+            <ol>
+              <li><a href="https://github.com/rapid7/hackazon">hackazon</a> - Hackazon is a free, vulnerable test site that is an online storefront built with the same technologies used in today’s rich client and mobile applications.</li>
+              <li><a href="https://github.com/rapid7/metasploit-framework">metasploit-framework</a> - World's most used penetration testing software!</li>
+              <li><a href="https://github.com/rapid7/metasploit-omnibus">metasploit-omnibus</a> - This project creates full-stack platform-specific packages for metasploit-framework. This is not the same as the Metasploit Community edition. It only contains the framework command-line interface and the associated tools and modules.</li>
+              <li><a href="https://github.com/rapid7/metasploit-payloads">metasploit-payloads</a> - Unified repository for different Metasploit Framework payloads.</li>
+              <li><a href="https://github.com/rapid7/recog">recog</a> - Recog is a framework for identifying products, services, operating systems, and hardware by matching fingerprints against data returned from various network probes.</li>
+              <li><a href="https://github.com/rapid7/sonar-client">sonar-client</a> - Ruby API Wrapper and CLI for <a href="https://sonar.labs.rapid7.com/">Sonar</a></li>
+              <li><a href="https://github.com/rapid7/ssh-badkeys">ssh-badkeys</a> - A collection of static SSH keys (public and private) that have made their way into software and hardware products.</li>
+            </ol>
+            <h4>Utilities</h4>
+            <ol>
+            <li><a href="https://github.com/rapid7/awsaml">awsaml</a> - Awsaml is an application for providing automatically rotated temporary AWS credentials.</li>
+            <li><a href="https://github.com/rapid7/guardian">guardian</a> - Guardian is a lightweight authentication proxy for HTTP services. It allows authenticating existing web applications without needing to modify the underlying application to support authentication.</li>
+            </ol>          
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="config">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #497CE2;">
+            <h2><i class="fa fa-cogs"></i> Property Management</h2>
+            <h3 style="color:#497CE2">Alter your configuration without restarting or redeploying.</h3>
+            <p class="cat-desc">In this section, you'll find both our small-scale, easy-to-use centralized configuration tool <a href="https://github.com/rapid7/conqueso">conqueso</a> along with its various clients.  In addition to that, we have also included our next-gen, open source project <a href="https://github.com/rapid7/propsd">propsd</a> which combines the power of S3 along with <a href="https://www.consul.io/">Consul.io</a> to provide a drop in replacement for <a href="https://github.com/rapid7/conqueso">conqueso</a>.</p>
+            <ol>
+              <li><a href="https://github.com/rapid7/propsd">propsd</a> - A Node.js based configuration management tool relying on the power and availability of S3.</li>
+              <li><a href="https://github.com/rapid7/conqueso">conqueso</a> - Centrally and dynamically change configuration values of your services!</li>
+              <li><a href="https://github.com/rapid7/conqueso-client-javascript">conqueso-client-javascript</a> - Client library in JavaScript for consuming properties set in the Conqueso server.</li>
+              <li><a href="https://github.com/rapid7/conqueso-client-java">conqueso-client-java</a> - A library to connect your Java applications to Conqueso.</li>
+            </ol>
+         </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="utils">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #008B81;">
+            <h2><i class="fa fa-wrench"></i> Standard Utilities</h2>
+            <h3 style="color:#008B81">Leverage these utilities to develop software faster.</h3>
+            <p class="cat-desc">Wether you're trying to integrate GitHub with Active Directory, standardize your development workflow, or just keep your Elasticsearch cluster green, we've written tools that can help. Here you'll find all the things we use on a day-to-day basis that help us innovate and iterate faster.</p>
+            <ol>
+              <li><a href="https://github.com/rapid7/github-connector">github-connector</a> - Connect GitHub accounts to Active Directory.</li>
+              <li><a href="https://github.com/rapid7/github-notification-proxy">github-notification-proxy</a> - Store and deliver GitHub notifications to protected locations.</li>
+              <li><a href="https://github.com/rapid7/builderator">builderator</a> - Leverage Vagrant, Packer, and EC2 to standardize your code deployment life-cycle.</li>
+              <li><a href="https://github.com/rapid7/convection">convection</a> - A fully generic, modular DSL for AWS CloudFormation.</li>
+              <li><a href="https://github.com/rapid7/dogwatch">dogwatch</a> - A Ruby DSL to create DataDog monitors.</li>
+              <li><a href="https://github.com/rapid7/elasticsearch-drain">elasticsearch-drain</a> - Replace Elasticsearch nodes while keeping your cluster healthy.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="chef">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #FFCD6E;">
+            <h2><i class="fa fa-spoon"></i> Chef</h2>
+            <h3 style="color:#FFCD6E">Deliver your software the same way - everytime.</h3>
+            <p class="cat-desc">We use <a href="https://www.chef.io/"> Chef.io </a> here at Rapid7.  Below you'll find a selection of cookbooks used for deploying both third-party products we've we use, the cookbooks needed to deploy several of our tools above, and a growing list libraries.</p>
+            <ol>
+              <li><a href="https://github.com/rapid7/chef-conqueso">chef-conqueso</a> - Cookbook for deploying <a href="https://github.com/rapid7/conqueso">conqueso</a>.</li>
+              <li><a href="https://github.com/rapid7/chef-datadog">chef-datadog</a> - Our Cookbook for deploying and configuring the DataDog agent.</li>
+              <li><a href="https://github.com/rapid7/chef-etcd">chef-etcd</a> - Our Cookbook for deploying and configuring an etcd cluster.</li>
+              <li><a href="https://github.com/rapid7/cluster-discovery">cluster-discovery</a> - This is a library that provides a generic interface to multiple cluster providers.  It can be used with or without Chef.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-md-offset-10">
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 Rapid7, LLC.</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+<html>

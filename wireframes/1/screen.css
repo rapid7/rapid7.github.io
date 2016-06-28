@@ -1,0 +1,134 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-size: 62.5%;
+font-family: sans-serif;
+display: flex;
+flex-direction: column;
+}
+
+a, a:hover {
+text-decoration: none;
+color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: Georgia, serif;
+}
+
+p {
+font-size: 1.2rem;
+font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+max-width: 33rem;
+margin: 0 auto;
+}
+
+.header {
+margin-top: 2.4rem;
+margin-bottom: 2.4rem;
+}
+
+.header > h1 {
+font-size: 1.8rem;
+font-weight: normal;
+text-transform: uppercase;
+margin-bottom: 1.2rem;
+}
+
+.header > p + p {
+margin-top: 1.2rem;
+}
+
+.blurb {
+margin-bottom: 4.8rem;
+margin-top: 2.4rem;
+}
+
+.blurb > h2 {
+font-size: 2.4rem;
+font-weight: normal;
+margin-bottom: 1.2rem;
+}
+
+.blurb > p {
+font-size: 1.2rem;
+}
+
+.blurb > p + p {
+margin-top: 1.2rem;
+}
+
+.blurb > h2 + p {
+font-size: 1.4rem;
+font-weight: bold;
+}
+
+.project {
+display: flex;
+flex-direction: row;
+border: 1px solid #000;
+padding: 1.2rem;
+border-radius: 0.3rem;
+margin-bottom: 2.4rem;
+}
+
+.project > .info {
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+}
+
+.project > .info > .title {
+font-size: 1.8rem;
+font-weight: normal;
+margin-bottom: 0.6rem;
+}
+
+.project > .info > p + p {
+margin-top: 1.2rem;
+}
+
+.project > .info > p {
+font-size: 1.2rem
+}
+
+.stats {
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+margin-left: 1.2rem;
+}
+
+.kpi {
+opacity: 0.25;
+}
+
+.kpi + .kpi {
+margin-top: 1.2rem;
+}
+
+.kpi > h4 {
+font-size: 2.4rem;
+font-weight: normal;
+text-align: center;
+}
+
+.kpi > p {
+font-size: 1.2rem;
+text-align: center;
+}
+
+.footer {
+font-size: 0.8rem;
+text-align: center;
+margin: 2.8rem 0;
+}

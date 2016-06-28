@@ -1,0 +1,27 @@
+.grow {
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -moz-box-shadow:    3px 3px 4px 5px #666666;
+  -webkit-box-shadow: 3px 3px 4px 5px #666666;
+  box-shadow:         3px 3px 4px 5px #666666;
+  -webkit-transform:translateZ(0) scale(1); /* Safari and Chrome */
+  -moz-transform:scale(1); /* Firefox */
+  -ms-transform:scale(1); /* IE 9 */
+  -o-transform:translatZ(0) scale(1); /* Opera */
+  transform:translatZ(0) scale(1);
+  transition: all 350ms ease-in-out;
+}
+.grow:hover {
+  zoom: 1;
+  -webkit-transform:translateZ(0) scale(1.10); /* Safari and Chrome */
+  -moz-transform:scale(1.10); /* Firefox */
+  -ms-transform:scale(1.10); /* IE 9 */
+  -o-transform:translatZ(0) scale(1.10); /* Opera */
+  transform:translatZ(0) scale(1.10);
+  transition: all 150ms ease-in-out;
+  -moz-box-shadow:    0px 0px 10px 15px #262626;
+  -webkit-box-shadow: 0px 0px 10px 15px #262626;
+  box-shadow:         0px 0px 10px 15px #262626;
+
+}
