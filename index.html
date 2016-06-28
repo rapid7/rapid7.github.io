@@ -23,10 +23,9 @@
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">Rapid7 Open Source Toolkit - R.O.S.T</a>
-          <a class="navbar-brand" href="#security" style="color:#FF7F00"><i class="fa fa-shield"></i> Metasploit</a>
-          <a class="navbar-brand" href="#security" style="color:#FF7F00"><i class="fa fa-shield"></i> Security</a>
+          <a class="navbar-brand" href="#security" style="color:#FF7F00"><i class="fa fa-shield"></i> Metasploit and security</a>
           <a class="navbar-brand" href="#config" style="color:#497CE2"><i class="fa fa-cogs"></i> Property Management</a>
-          <a class="navbar-brand" href="#utils" style="color:#008B81"><i class="fa fa-wrench"></i> Utilities</a>
+          <a class="navbar-brand" href="#utils" style="color:#008B81"><i class="fa fa-wrench"></i> Standard Utilities</a>
           <a class="navbar-brand" href="#chef" style="color:#FFCD6E"><i class="fa fa-spoon"></i> Chef</a>
         </div>
       </div>
@@ -53,23 +52,28 @@
       <div class="container-fluid" id="security">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #FF7F00;">
-            <h2><i class="fa fa-shield"></i> Security related</h2>
+            <h2><i class="fa fa-shield"></i> Metasploit and security related</h2>
             <h3 style="color:#FF7F00">Take advantage of these tools to help secure your environment.</h3>
             <p  class="cat-desc">Here in this section, you'll find all the open source things we've created to support
               our various security initatives.  From the many, many <a href="https://github.com/rapid7/metasploit-framework">metasploit-framework</a> projects, to things like <a href="https://github.com/rapid7/awsaml">awsaml</a> - which we use to manage AWS key rotation for our CLI development work.</p>
-              <p>For a full list of ALL the Metasploit components available to you, there's a <a href="https://github.com/rapid7/hackazon">dedicated page</a>.</p>
+              <p>For more information about leveraging the power of Metasploit tools, there's a <a href="http://resources.metasploit.com/">dedicated page</a> full of helpful resources.</p>
             <h4>Metasploit Related</h4>
             <ol>
-              <li><a href="https://github.com/rapid7/metasploit-framework">metasploit-framework</a></li>
-              <li><a href="https://github.com/rapid7/metasploit_data_models">metasploit_data_models</a></li>
-              <li><a href="https://github.com/rapid7/metasploit-payloads">metasploit-payloads</a></li>
-              <li><a href="https://github.com/rapid7/hackazon">hackazon</a></li>
-              <li><a href="link here to another page dedicated to Metasploit bits">More Metasploit projects here!</a></li>
+              <li><a href="https://github.com/rapid7/hackazon">hackazon</a> - Hackazon is a free, vulnerable test site that is an online storefront built with the same technologies used in today’s rich client and mobile applications.</li>
+              <li><a href="https://github.com/rapid7/metasploit-framework">metasploit-framework</a> - World's most used penetration testing software!</li>
+              <li><a href="https://github.com/rapid7/metasploit-omnibus">metasploit-omnibus</a> - This project creates full-stack platform-specific packages for metasploit-framework. This is not the same as the Metasploit Community edition. It only contains the framework command-line interface and the associated tools and modules.</li>
+              <li><a href="https://github.com/rapid7/metasploit-payloads">metasploit-payloads</a> - Unified repository for different Metasploit Framework payloads.</li>
+              <li><a href="https://github.com/rapid7/recog">recog</a> - Recog is a framework for identifying products, services, operating systems, and hardware by matching fingerprints against data returned from various network probes.</li>
+              <li><a href="https://github.com/rapid7/rex">rex</a> - An re-packaging of the Rex library included in the Metasploit Framework for use by non-Metasploit applications.</li>
+              <li><a href="https://github.com/rapid7/ruby_smb">ruby_smb</a> - A packet parsing and manipulation library for the SMB family of protocols.</li>
+              <li><a href="https://github.com/rapid7/sonar-client">sonar-client</a> - Ruby API Wrapper and CLI for <a href="https://sonar.labs.rapid7.com/">Sonar</a></li>
+              <li><a href="https://github.com/rapid7/ssh-badkeys">ssh-badkeys</a> - A collection of static SSH keys (public and private) that have made their way into software and hardware products.</li>
+              <li><a href="https://github.com/rapid7/warvox">warvox</a> - </li>
             </ol>
             <h4>Utilities</h4>
             <ol>
-            <li><a href="https://github.com/rapid7/awsaml">awsaml</a></li>
-            <li><a href="https://github.com/rapid7/guardian">guardian</a></li>
+            <li><a href="https://github.com/rapid7/awsaml">awsaml</a> - Awsaml is an application for providing automatically rotated temporary AWS credentials.</li>
+            <li><a href="https://github.com/rapid7/guardian">guardian</a> - Guardian is a lightweight authentication proxy for HTTP services. It allows authenticating existing web applications without needing to modify the underlying application to support authentication.</li>
             </ol>          
           </div>
         </div>
@@ -78,14 +82,14 @@
         <!-- Example row of columns -->
         <div class="row">
           <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #497CE2;">
-            <h2><i class="fa fa-cogs"></i> Configuration Management</h2>
-            <h3 style="color:#497CE2">Something clever about config management.</h3>
-            <p class="cat-desc">In this section, you'll find both our small-scale, easy-to-use centralized configuration tool <a href="https://github.com/rapid7/conqueso">conqueso</a> along with its various clients.  In addition to that, we have also included our next-gen, open source project <a href="https://github.com/rapid7/propsd">propsd</a> which combines the power of S3 along with Consul.io to provide a drop in replacement for <a href="https://github.com/rapid7/conqueso">conqueso</a>.</p>
+            <h2><i class="fa fa-cogs"></i> Property Management</h2>
+            <h3 style="color:#497CE2">Alter your configuration without restarting or redeploying.</h3>
+            <p class="cat-desc">In this section, you'll find both our small-scale, easy-to-use centralized configuration tool <a href="https://github.com/rapid7/conqueso">conqueso</a> along with its various clients.  In addition to that, we have also included our next-gen, open source project <a href="https://github.com/rapid7/propsd">propsd</a> which combines the power of S3 along with <a href="https://www.consul.io/">Consul.io</a> to provide a drop in replacement for <a href="https://github.com/rapid7/conqueso">conqueso</a>.</p>
             <ol>
-              <li><a href="https://github.com/rapid7/propsd">propsd</a></li>
-              <li><a href="https://github.com/rapid7/conqueso">conqueso</a></li>
-              <li><a href="https://github.com/rapid7/conqueso-client-javascript">conqueso-client-javascript</a></li>
-              <li><a href="https://github.com/rapid7/conqueso-client-java">conqueso-client-java</a></li>
+              <li><a href="https://github.com/rapid7/propsd">propsd</a> - A Node.js based configuration management tool relying on the power and availability of S3.</li>
+              <li><a href="https://github.com/rapid7/conqueso">conqueso</a> - Centrally and dynamically change configuration values of your services!</li>
+              <li><a href="https://github.com/rapid7/conqueso-client-javascript">conqueso-client-javascript</a> - Client library in JavaScript for consuming properties set in the Conqueso server.</li>
+              <li><a href="https://github.com/rapid7/conqueso-client-java">conqueso-client-java</a> - A library to connect your Java applications to Conqueso.</li>
             </ol>
          </div>
         </div>
@@ -95,15 +99,15 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #008B81;">
             <h2><i class="fa fa-wrench"></i> Standard Utilities</h2>
-            <h3 style="color:#008B81">Something clever about our utilities.</h3>
-            <p class="cat-desc">Some cool business here with links and a description for each component in this category.</p>
+            <h3 style="color:#008B81">Leverage these utilities to develop software faster.</h3>
+            <p class="cat-desc">Wether you're trying to integrate GitHub with Active Directory, standardize your development workflow, or just keep your Elasticsearch cluster green, we've written tools that can help. Here you'll find all the things we use on a day-to-day basis that help us innovate and iterate faster.</p>
             <ol>
-              <li><a href="https://github.com/rapid7/github-connector">github-connector</a></li>
-              <li><a href="https://github.com/rapid7/github-notification-proxy">github-notification-proxy</a></li>
-              <li><a href="https://github.com/rapid7/builderator">builderator</a></li>
-              <li><a href="https://github.com/rapid7/convection">convection</a></li>
-              <li><a href="https://github.com/rapid7/dogwatch">dogwatch</a></li>
-              <li><a href="https://github.com/rapid7/elasticsearch-drain">elasticsearch-drain</a></li>
+              <li><a href="https://github.com/rapid7/github-connector">github-connector</a> - Connect GitHub accounts to Active Directory.</li>
+              <li><a href="https://github.com/rapid7/github-notification-proxy">github-notification-proxy</a> - Store and deliver GitHub notifications to protected locations.</li>
+              <li><a href="https://github.com/rapid7/builderator">builderator</a> - Leverage Vagrant, Packer, and EC2 to standardize your code deployment life-cycle.</li>
+              <li><a href="https://github.com/rapid7/convection">convection</a> - A fully generic, modular DSL for AWS CloudFormation.</li>
+              <li><a href="https://github.com/rapid7/dogwatch">dogwatch</a> - A Ruby DSL to create DataDog monitors.</li>
+              <li><a href="https://github.com/rapid7/elasticsearch-drain">elasticsearch-drain</a> - Replace Elasticsearch nodes while keeping your cluster healthy.</li>
             </ol>
           </div>
         </div>
@@ -113,13 +117,13 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #FFCD6E;">
             <h2><i class="fa fa-spoon"></i> Chef</h2>
-            <h3 style="color:#FFCD6E">Something clever about our chef components.</h3>
-            <p class="cat-desc">Blah blah blah some business here about all these cool chef bits</p>
+            <h3 style="color:#FFCD6E">Deliver your software the same way - everytime.</h3>
+            <p class="cat-desc">We use <a href="https://www.chef.io/"> Chef.io </a> here at Rapid7.  Below you'll find a selection of cookbooks used for deploying both third-party products we've we use, the cookbooks needed to deploy several of our tools above, and a growing list libraries.</p>
             <ol>
-              <li><a href="https://github.com/rapid7/chef-conqueso">chef-conqueso</a></li>
-              <li><a href="https://github.com/rapid7/chef-datadog">chef-datadog</a></li>
-              <li><a href="https://github.com/rapid7/cluster-discovery">cluster-discovery</a></li>
-              <li><a href="https://github.com/rapid7/chef-etcd">chef-etcd</a></li>
+              <li><a href="https://github.com/rapid7/chef-conqueso">chef-conqueso</a> - Cookbook for deploying <a href="https://github.com/rapid7/conqueso">conqueso</a>.</li>
+              <li><a href="https://github.com/rapid7/chef-datadog">chef-datadog</a> - Our Cookbook for deploying and configuring the DataDog agent.</li>
+              <li><a href="https://github.com/rapid7/chef-etcd">chef-etcd</a> - Our Cookbook for deploying and configuring an etcd cluster.</li>
+              <li><a href="https://github.com/rapid7/cluster-discovery">cluster-discovery</a> - This is a library that provides a generic interface to multiple cluster providers.  It can be used with or without Chef.</li>
             </ol>
           </div>
         </div>
