@@ -24,7 +24,7 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="#">Rapid7 Open Source Toolkit - R.O.S.T</a>
           <a class="navbar-brand" href="#security" style="color:#FF7F00"><i class="fa fa-shield"></i> Metasploit and security</a>
-          <a class="navbar-brand" href="#config" style="color:#497CE2"><i class="fa fa-cogs"></i> Property Management</a>
+          <a class="navbar-brand" href="#config" style="color:#497CE2"><i class="fa fa-cogs"></i> Configuration Management</a>
           <a class="navbar-brand" href="#utils" style="color:#008B81"><i class="fa fa-wrench"></i> Standard Utilities</a>
           <a class="navbar-brand" href="#chef" style="color:#FFCD6E"><i class="fa fa-spoon"></i> Chef</a>
         </div>
@@ -69,8 +69,11 @@
             </ol>
             <h4>Utilities</h4>
             <ol>
+            <li><a href="https://github.com/MooseDojo/apt2">apt2</a> - Apt2 is a automated penetration toolkit which can perform scans or import the results of scans from Nexpose, NEssus, or NMap.</li>
             <li><a href="https://github.com/rapid7/awsaml">awsaml</a> - Awsaml is an application for providing automatically rotated temporary AWS credentials.</li>
+            <li><a href="https://github.com/MooseDojo/backHack">backHack</a> - backHack is a tool to perform Android app analysis by backing up and extracting apps, allowing you to analyze and modify file system contents for apps.</li>
             <li><a href="https://github.com/rapid7/guardian">guardian</a> - Guardian is a lightweight authentication proxy for HTTP services. It allows authenticating existing web applications without needing to modify the underlying application to support authentication.</li>
+            <li><a href="https://github.com/MooseDojo/myBFF">myBFF</a> - A Brute Force Framework.</li>
             </ol>          
           </div>
         </div>
@@ -79,14 +82,13 @@
         <!-- Example row of columns -->
         <div class="row">
           <div class="col-md-8 col-md-offset-2 grow" style="border: 10px solid #497CE2;">
-            <h2><i class="fa fa-cogs"></i> Property Management</h2>
-            <h3 style="color:#497CE2">Alter your configuration without restarting or redeploying.</h3>
-            <p class="cat-desc">In this section, you'll find both our small-scale, easy-to-use centralized configuration tool <a href="https://github.com/rapid7/conqueso">conqueso</a> along with its various clients.  In addition to that, we have also included our next-gen, open source project <a href="https://github.com/rapid7/propsd">propsd</a> which combines the power of S3 along with <a href="https://www.consul.io/">Consul.io</a> to provide a drop in replacement for <a href="https://github.com/rapid7/conqueso">conqueso</a>.</p>
+            <h2><i class="fa fa-cogs"></i> Configuration Management</h2>
+            <h3 style="color:#497CE2">Alter and secure your configuration without restarting or redeploying.</h3>
+            <p class="cat-desc">In this section, you'll find our easy-to-use centralized configuration management tools like <a href="https://github.com/rapid7/propsd">propsd</a> which combines the power of S3 along with <a href="https://www.consul.io/">Consul.io</a> to deliver dynamic configuration and catalog changes.  We are also including here our tooling for encrypting secrets via <a href="https://github.com/rapid7/tokend">tokend</a> and <a href="https://github.com/rapid7/warden">warden</a>.</p>
             <ol>
               <li><a href="https://github.com/rapid7/propsd">propsd</a> - A Node.js based configuration management tool relying on the power and availability of S3.</li>
-              <li><a href="https://github.com/rapid7/conqueso">conqueso</a> - Centrally and dynamically change configuration values of your services!</li>
-              <li><a href="https://github.com/rapid7/conqueso-client-javascript">conqueso-client-javascript</a> - Client library in JavaScript for consuming properties set in the Conqueso server.</li>
-              <li><a href="https://github.com/rapid7/conqueso-client-java">conqueso-client-java</a> - A library to connect your Java applications to Conqueso.</li>
+              <li><a href="https://github.com/rapid7/tokend">tokend</a> - A Node.js daemon that interfaces with Vault and Warden to provide a secure method to deliver secrets to servers in the cloud.</li>
+              <li><a href="https://github.com/rapid7/warden">warden</a> - Warden is an authentication middleware service that runs on each node in a Vault cluster</li>
             </ol>
          </div>
         </div>
@@ -117,7 +119,6 @@
             <h3 style="color:#FFCD6E">Deliver your software the same way - everytime.</h3>
             <p class="cat-desc">We use <a href="https://www.chef.io/"> Chef.io </a> here at Rapid7.  Below you'll find a selection of cookbooks used for deploying both third-party products we've we use, the cookbooks needed to deploy several of our tools above, and a growing list libraries.</p>
             <ol>
-              <li><a href="https://github.com/rapid7/chef-conqueso">chef-conqueso</a> - Cookbook for deploying <a href="https://github.com/rapid7/conqueso">conqueso</a>.</li>
               <li><a href="https://github.com/rapid7/chef-datadog">chef-datadog</a> - Our Cookbook for deploying and configuring the DataDog agent.</li>
               <li><a href="https://github.com/rapid7/chef-etcd">chef-etcd</a> - Our Cookbook for deploying and configuring an etcd cluster.</li>
               <li><a href="https://github.com/rapid7/cluster-discovery">cluster-discovery</a> - This is a library that provides a generic interface to multiple cluster providers.  It can be used with or without Chef.</li>
